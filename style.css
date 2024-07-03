@@ -1,0 +1,127 @@
+body{
+    font-family: "source code pro", calibri, serif; 
+    margin: 0px;
+    padding: 0px;
+    background-color:  rgb(81, 24, 117);
+}
+
+.image-1{
+    float:right;
+    padding:10px 20px 10px 20px; 
+    width: 20%; 
+    height:20%;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(194, 162, 214);
+}
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a{
+    padding: 10px 20px;
+    color:bisque;
+}
+
+nav > ul > li:hover a{
+    padding: 10px 20px 10px 20px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.submenu{
+    display: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding:0px;
+    z-index:1000;
+}
+
+.submenu li{
+    border-bottom: 1px solid greenyellow;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 15px;
+    color:antiquewhite;
+    width:270px;
+    font-weight: bold;
+    background-color: rgb(17, 104, 128);
+}
+
+.menu-Quisommenous:hover{
+    border-top: 5px solid #bdc706;
+    background-color:  rgb(59, 45, 129);
+}
+.menu-school:hover{
+    border-top: 5px solid #e6f10c;
+    background-color:  rgb(59, 45, 129);
+}
+.menu-CYBERSS:hover{
+    border-top: 5px solid #d9aa0e;
+    background-color:  rgb(59, 45, 129);
+}
+.menu-DIGITALLAB:hover{
+    border-top: 5px solid #ec9109;
+    background-color:  rgb(59, 45, 129);
+}
+.menu-CONTACT:hover{
+    border-top: 5px solid #f1551c;
+    background-color: rgb(59, 45, 129);
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-img-acc{
+    background-color:  rgb(81, 24, 117);
+    width: 100%;
+    height: 100%;
+
+}
+
+article{
+    font-family: "source code pro", calibri, serif;
+    font-size: 25px;
+    background-color: rgb(81, 24, 117);
+    color:bisque;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: "source code pro", calibri, serif;
+    font: size 90px;
+    color: blue;
+    
+}
